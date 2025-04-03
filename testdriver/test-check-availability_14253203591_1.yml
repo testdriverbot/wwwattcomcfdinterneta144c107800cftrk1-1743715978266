@@ -1,0 +1,13 @@
+version: 4.2.26
+session: 67ef0182e21e02de53354d72
+steps:
+  - prompt: Enter a valid ZIP code in the input field.
+    commands:
+      - command: type
+        text: 90210
+  - prompt: Click the "Check Availability" button.
+    commands:
+      - command: hover-text
+        text: Check Availability
+        description: button to check availability of services
+        action: click
