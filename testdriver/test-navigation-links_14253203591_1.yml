@@ -1,0 +1,23 @@
+version: 4.2.26
+session: 67ef017ae21e02de53354d6f
+steps:
+  - prompt: Click on "Home" in the navigation bar.
+    commands:
+      - command: hover-text
+        text: Home
+        description: Home link in the navigation bar
+        action: click
+  - prompt: Assert that the homepage loads successfully.
+    commands:
+      - command: assert
+        expect: Stay connected with AT&T Fiber and Wireless is visible on the homepage
+  - prompt: Click on "Deals" in the navigation bar.
+    commands:
+      - command: hover-text
+        text: Deals
+        description: Deals link in the navigation bar
+        action: click
+  - prompt: Assert that the deals page loads successfully.
+    commands:
+      - command: assert
+        expect: Shop AT&T deals and offers is visible on the deals page
