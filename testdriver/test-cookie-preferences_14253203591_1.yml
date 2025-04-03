@@ -1,0 +1,9 @@
+version: 4.2.26
+session: 67ef016ae21e02de53354d6a
+steps:
+  - prompt: Click on "Manage your preferences" in the cookie consent banner.
+    commands:
+      - command: hover-text
+        text: Manage your preferences
+        description: button in the cookie consent banner
+        action: click
